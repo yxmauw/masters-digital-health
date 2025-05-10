@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDigHealth<br>Self introduction video</title>
+    <style>
+        /* Light mode styles */
+        :root {
+            --bg-color: #fff;
+            --text-color: #333;
+        }
+
+        /* Dark mode styles */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #222;
+                --text-color: #eee;
+            }
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Open Sans', sans-serif;
+            display: flex;
+            flex-direction: row;
+            min-height: 100vh;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+
+        .sidebar {
+            background-color: #003545;
+            padding: 20px;
+            width: 200px;
+            box-sizing: border-box;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            flex-grow: 1;
+        }
+
+        .sidebar li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .content {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-right: 50px;
+            padding-left: 50px;
+            text-align: justify;
+        }
+
+        header {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+          height: 50vh; /* Adjust this value to change the vertical centering position */
+          margin-bottom: 0; /* Remove the bottom margin */
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        article {
+            margin-bottom: 40px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        a:link {
+            color: DodgerBlue;
+        }
+
+        a:visited {
+            color: MediumPurple;
+        }
+
+        a:hover {
+            color: MediumVioletRed;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+            <li><a href="index.html">Intro</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <header>
+            <h1>MDigHealth <br> Self introduction video</h1>
+        </header>
+
+        <main>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Dr Data Scientist. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
